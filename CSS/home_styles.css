@@ -1,0 +1,78 @@
+body{
+    margin:0;
+}
+.header {
+    width:100vw;
+    height:15vh;
+    
+    background-image: url(https://media.istockphoto.com/photos/mountain-peak-zugspitze-summer-day-at-lake-eibsee-near-garmisch-picture-id1042404662?k=20&m=1042404662&s=612x612&w=0&h=Bjb0K0_frNQp9RSSrcERDe_tkh8E3iBs5dGcIrApD4E=);
+    background-size: 100% 15vh;
+}
+img {
+    background-size: 100% 15vh;
+}
+.container {
+    display:grid;
+    width: 100vw;
+    grid-template-columns: 15% 70% 15%;
+}
+.firstp{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.exp{
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    }
+a:visited {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+    }
+h1 {
+    text-align: center;
+}
+a:hover{
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+}
+.nav {
+    background-color: black;
+    height:750px;
+    color: white;
+    text-align: center;
+}
+.main {         
+    height: 750px;
+    background-color: rgb(181, 241, 226);
+    text-align: left;
+}
+.aside {
+    background-color: rgb(104, 9, 128);
+    height:750px;
+    text-align: center;
+}
+.footer {
+    background-color: palevioletred;
+    height:15vh;
+    width: 100vw;
+    text-align: center;
+}
+.copyright{
+    margin:0;
+    padding-top: 50px;
+}
+.footertext{
+    text-align: center;
+    
+}
